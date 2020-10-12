@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Payment Checkout Form</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	
+
+
+<div class="wrapper">
+  <div class="payment">
+    <h2>Tip Calculator</h2>
+    <div class="form">
+      <div class="card space icon-relative">
+        <label class="label">Total Bill:</label>
+        <input type="number" class="input cost">
+      </div>
+      <div class="card space icon-relative">
+        <label class="label">How was your service:</label>
+        <select class="service input" required>
+          <option value="30">5 - Amazing</option>
+          <option value="20">4 - Great</option>
+          <option value="10">3 - Good</option>
+          <option value="5">2 - Alright</option>
+          <option value="0">1 - Terrible</option>
+         </select>
+      </div>
+      <div class="card space icon-relative">
+        <label class="label">How many sharing the bill:</label>
+        <input type="number" class="input people">
+      </div>
+      </div>
+
+      <section class="tip-wrap">
+        <p>You should tip: </p>
+        <h3 class="tip">Rs 0</h3>
+       </section>
+        
+      <div class="btn" id="tip-btn">
+        Tip
+      </div> 
+      
+    </div>
+  </div>
+</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  
+  <script src="ans.js"></script>
+
+</body>
+</html>
